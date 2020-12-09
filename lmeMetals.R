@@ -26,8 +26,6 @@ pkg<- c("lme4","reshape","doBy")
 # Call packages
 lapply(pkg, require, character.only=T)
 #
-setwd("C:/Users/Egina/Dropbox/_Work/Github/sensitivityMetals")
-#
 org_db<-read.csv("Org_File.csv",sep=",", header=T) # Original table
 out_db<-read.csv("Outlier.csv",sep=",", header=T) # Original table
 #
